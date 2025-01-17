@@ -5,7 +5,7 @@ services:
     container_name: shelly-plug
     image: php:8-apache
     ports:
-      - "9924:80"
+      - "9924:81"
     environment:
       SHELLY_HOSTNAME: '{{ shelly_plug_hostname }}'
       SHELLY_HTTP_USERNAME: '{{ shelly_plug_http_username }}'
